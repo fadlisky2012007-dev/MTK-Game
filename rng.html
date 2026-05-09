@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Game MTK</title>
+    <link rel="stylesheet" href="pagerng.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="container">
+      <a class="a-navbar" href=".../game.html">Home</a>
+      <a class="a-navbar" href="rng.html">Game</a>
+    </nav>
+    <!-- Navbar selesai -->
+
+    <!-- Content -->
+    <div class="game-container">
+      <h1>MTK Game</h1>
+      <button onclick="buatSoal()">
+        Buat Soal</button>
+      <h2 id="soal">Tekan Tombol Untuk Memulai</h2>
+      <input type="number" id="jawaban" placeholder="Masukkan jawaban">
+
+      <button id="button" onclick="cekJawaban()">
+      Submit
+      </button>
+      <p id="hasil"></p>
+   </div>
+    <!-- Content selesai -->
+
+    <!-- Javascript -->
+    <script src="rng.js"></script>
+  </body>
+</html>
