@@ -47,6 +47,9 @@ body {
 
   gap: 15px;
 }
+h1 {
+  color: white;
+}
 h1, p, h2 {
   margin: 10px;
 }
