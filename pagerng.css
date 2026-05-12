@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Sans-Serif;
+  background: linear-gradient(to bottom, #0f172a, #1e3a8a);
+  min-height: 100vh;
+}
+
+/* Navbar */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0f172a;
+
+  width: 100%;
+  height: 60px;
+
+  gap: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.a-navbar {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Content */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 0 auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 25px;
+
+  background-color: rgba(255,255,255,0.08);
+
+  gap: 15px;
+}
+h1, p, h2 {
+  margin: 10px;
+}
+
+/* Tombol */
+button {
+  padding: 12px 25px;
+
+  font-size: 18px;
+
+  border: none;
+  border-radius: 12px;
+
+  background-color: #2563eb;
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+/* Soal */
+#soal {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  background-color: #0f172a;
+
+  color: white;
+
+  font-size: 24px;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+/* Input */
+#jawaban {
+  width: 80%;
+
+  padding: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  background-color: #e2e8f0;
+
+  outline: none;
+}
+
+/* Submit Button */
+#button {
+  width: 150px;
+  height: 50px;
+
+  border-radius: 12px;
+}
+
+/* Timer */
+#timer {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #93c5fd;
+}
+
+/* Streak */
+#streak {
+  font-size: 18px;
+  font-weight: bold;
+
+  color: #bfdbfe;
+}
+
+/* Hasil */
+#hasil {
+  text-align: center;
+
+  border-radius: 10px;
+
+  font-size: 22px;
+  font-weight: bold;
+}
